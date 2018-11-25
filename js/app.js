@@ -1,5 +1,5 @@
 var url = window.location.href;
-var swLocation = '/pipottor';
+var swLocation = '/pipottor/sw.js';
 
 if (navigator.serviceWorker) {
   if (url.includes('localhost')) {
